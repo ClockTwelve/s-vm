@@ -1,0 +1,54 @@
+<html>
+  <head>
+    <title>s-vm</title>
+  </head>
+  <style>
+    .textbox {
+      margin-top: 20rem;
+      text-align: center;
+    }
+    .buttonarea {
+      margin-top: 10rem;
+      text-align: center;
+    }
+    button {
+      margin: 1rem;
+      background: transparent;
+      border: 1px solid #c1bcbc;
+      border-radius: 8px;
+      padding: 10px 15px;
+      outline: none;
+      cursor: pointer;
+    }
+    button:hover {
+      border-color: #404040;
+    }
+  </style>
+  <body>
+    <div class="textbox">
+      <h1>There's nothing to see for now.</h1>
+      <h1>You can find more details in console.</h1>
+    </div>
+    <div class="buttonarea">
+      <h3>Button area</h3>
+      <div>
+        <button id="changeMessage">Click me if you want to change the message to 'Im a happy message'</button>
+      </div>
+      <div>
+          <button id="changeAnotherMessage">Click me if you want to change the anotherMessage to 'No, you're not'</button>
+      </div>
+      <div>
+        <button id="changeBoth">Change them both at same time</button>
+      </div>
+      <div>
+          <button id="resetMessage">Reset message</button>
+      </div>
+    </div>
+    <script src="./dep.js"></script>
+    <script src="./observe.js"></script>
+    <script src="./scheduler.js"></script>
+    <script src="./subscriber.js"></script>
+    <script src="./utils.js"></script>
+    <script src="./test.js"></script>
+  </body>
+</html>
