@@ -27,7 +27,6 @@
     },
     update() {
       queueSub(this)
-      // this.run()
     },
     run() {
       var oldValue,newValue

@@ -12,8 +12,8 @@
     flushing = true
     
     queue.sort(function(a, b) { return a.id > b.id })
-    for(var i = 0; i < queue.length; i++) {
-      var sub = queue[i]
+    for(; index < queue.length; index++) {
+      var sub = queue[index]
       has[sub.id] = null
       sub.run()
     }
