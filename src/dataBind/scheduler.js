@@ -37,6 +37,7 @@
       } else {
 
         var i = queue.length - 1
+        //index表示当前队列中正在执行的Subscriber的所对应的下标
         while(i > index && id > queue[i].id) {
           i--
         }
