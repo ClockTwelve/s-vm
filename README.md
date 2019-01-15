@@ -512,7 +512,7 @@ data.anotherMessage = 'no, you\'re not'
   }
 ```
 这个方法主要逻辑很简单:
-![image](02FB1663DC5B44648B00BA14289EE575)
+![image](image/queueSub_process.jpg)
 我着重谈谈其中特定的两步:
 ##### 1.把当前sub根据创建顺序添加进入目前正在执行的队列
 
